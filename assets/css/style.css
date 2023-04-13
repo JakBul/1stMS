@@ -1,3 +1,45 @@
-h1 {
-    color: red;
+/* --------------------------------------------- General CSS */
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* --------------------------------------------- Colours */
+
+/* --------------------------------------------- Navbar */
+.navbar {
+    background: #000000;
+    color: #fafafa;
+}
+
+.navbar-brand {
+    color: #fafafa;
+    font-family: 'Dancing Script', cursive;
+}
+
+.navbar-brand:hover {
+    color: #fafafa;
+}
+
+span {
+    color: #ec5353;
+}
+
+.nav-item {
+    padding-right: 50px;
+}
+
+.nav-link {
+    color: #fafafa;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.nav-link:hover {
+    color: #ec5353;
+}
+
+.d-flex {
+    font-family: 'Dancing Script', cursive;
+    color: #ec5353;
 }
