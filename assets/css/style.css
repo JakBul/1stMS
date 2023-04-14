@@ -152,3 +152,22 @@ span {
     font-weight: 800;
     font-size: 3rem;
 }
+
+/* --------------------------------------------- Services */
+
+.services h1 {
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.services h5 {
+    font-weight: 700;
+}
+
+.fa-solid {
+    font-size: 2.5rem;
+}
+
+.back:hover .fas {
+    color: #fafafa;
+}
