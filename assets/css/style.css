@@ -47,10 +47,14 @@ span {
     color: #ec5353;
 }
 
+.navbar-toggler {
+    background: #ec5353;
+}
+
 /* --------------------------------------------- Section */
 
 .main {
-    background: #fafafa;
+    background: #a09494;
     background-size: cover;
     height: 100vh;
 }
@@ -73,4 +77,55 @@ span {
 .btn1:hover {
     background: linear-gradient(90deg, #fe9418 0%, #f5634b 100%);
     transition: all 1s;
+}
+
+/* --------------------------------------------- Details */
+
+.details {
+    margin-top: -50px;
+}
+
+.details h5 {
+    text-decoration: none;
+    color: #000000;
+    font-size: 2rem;
+}
+
+.details a {
+    text-decoration: none;
+    color:#ec5353;
+}
+
+.back:hover {
+    color: #fafafa;
+    cursor: pointer;
+}
+
+.back {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.back::before {
+    content: "";
+    position: absolute;
+    height: 0px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(90deg, #fe9418 0%, #f5634b 100%);
+    z-index: -1;
+    transition: all 1s;
+}
+
+.back:hover::before {
+    height: 100%;
+}
+
+
+.back:hover h5, a{
+    color: #fafafa;
+    cursor: pointer;
 }
