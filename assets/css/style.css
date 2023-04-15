@@ -171,3 +171,29 @@ span {
 .back:hover .fas {
     color: #fafafa;
 }
+
+/* --------------------------------------------- Classes */
+
+.classes h1 {
+    font-weight: 800;
+    font-size: 2.8rem;
+}
+
+.classes .card {
+    border: none;
+}
+
+.btn2 {
+    height: 55px;
+    width: 80%;
+    color: #fafafa;
+    outline: none;
+    border: none;
+    background: linear-gradient(90deg, #f5634b 0%, #fe9418 100%);
+    transition: 1s;
+}
+
+.btn2:hover {
+    background: linear-gradient(90deg, #fe9418 0%, #f5634b 100%);
+    transition: all 1s;
+}
