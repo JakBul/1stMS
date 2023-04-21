@@ -206,6 +206,13 @@ span {
     width: 100%;
 }
 
+/* --------------------------------------------- Gallery */
+
+.gallery h1 {
+    font-weight: 800;
+    text-decoration: underline 5px #ec5353;
+    color: #ec5353;
+}
 
 /* --------------------------------------------- Footer */
 
@@ -214,10 +221,20 @@ footer {
     color: #fafafa;
 }
 
-footer h4, h5 {
-    font-weight: 600;
-    font-size: 30px;
+footer h5 {
+    font-weight: 800;
+    font-size: 2rem;
     color: #ec5353;
+    text-decoration: underline 5px #ec5353;
+}
+
+footer h4 {
+    font-weight: 800;
+    font-size: 2rem;
+    color: #fafafa;
+}
+.footer-text {
+    text-align: justify;
 }
 
 footer p {
