@@ -31,7 +31,12 @@ span {
 }
 
 .nav-item {
-    padding-right: 50px;
+    padding-right: 100px;
+}
+
+.nav-item .active {
+    color: #ec5353 !important;
+    text-decoration: underline;
 }
 
 .nav-link {
@@ -41,11 +46,6 @@ span {
 }
 
 .nav-link:hover {
-    color: #ec5353;
-}
-
-.d-flex {
-    font-family: 'Raleway', sans-serif;
     color: #ec5353;
 }
 
@@ -170,6 +170,11 @@ span {
 .discover h1 {
     font-weight: 800;
     font-size: 3rem;
+}
+
+.modal-body, .modal-title {
+    color: #000000;
+    text-align: left;
 }
 
 /* --------------------------------------------- Services */

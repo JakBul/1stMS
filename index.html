@@ -37,9 +37,6 @@
                     <a class="nav-link" href="#">CONTACT</a>
                   </li>
                 </ul>
-                <form class="d-flex">
-                    <h3>Here is a text!</h3>
-                </form>
               </div>
             </div>
           </nav>
@@ -53,7 +50,6 @@
                     <h1 class="m-0">BE FIT<br>
                     <span>YOUR DREAM BODY</span><br> 
                     IS OUR PASSION</h1>
-                    <button class="btn1 mt-4">JOIN US</button>
                 </div>
             </div>
         </div>
@@ -97,12 +93,10 @@
           <div class="col-lg-6 mb-3">
             <h2 class="text-center"><span>PERSONAL TRAINING</span></h2>
             <br>
-
             <p>The greatest champions of our lifetime would not have been so without their trainer by their side.
               Whatever your fitness goals are, our dedicated team of Personal Trainers will help you to find the courage,
               clarity and commitment to smash through them.<br>
               <br>
-
               Our friendly and knowledgeable team of Personal Trainers at GymBeam are here to help you formulate a winning 
               strategy and achieve more than you ever thought was possible.  </p>
           </div>
@@ -116,7 +110,35 @@
           <div class="col-lg-8m-auto text-white text-center">
             <h1>BOOK YOUR FIRST TRAINING <span>FOR FREE</span></h1>
             <p>JUST SIGN UP FOR OUR NEWSLETTER</p>
-            <button class="btn1 mt-5">SIGN UP</button>
+            
+            <!-- Button trigger modal -->
+            <button type="button" class="btn1 btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              SIGN UP
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">SIGN UP FOR NEWSLETTER</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>No advertisement or spam, we do promise. <br>
+                      Few mails per year including our events and special promotions.</p>
+                      <form>
+                        <label for="email">Email address:</label>
+                        <input type="email" class="email-address" id="email">
+                      </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">SIGN UP</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
