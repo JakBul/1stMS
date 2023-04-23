@@ -104,6 +104,9 @@ span {
 .details p {
     text-align: justify;
     position: relative;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 20px;
 }
 
 .back:hover {
@@ -156,6 +159,8 @@ span {
 .more p {
     margin-top: 30px;
     text-align: justify;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 /* --------------------------------------------- Discover */
@@ -202,6 +207,11 @@ span {
     text-decoration: underline 5px #ec5353;
 }
 
+.classes p {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
 .classes .card {
     border: none;
 }
@@ -238,8 +248,10 @@ footer h4 {
     font-size: 2rem;
     color: #fafafa;
 }
+
 .footer-text {
     text-align: justify;
+    margin-right: 30px;
 }
 
 footer p {
@@ -276,4 +288,38 @@ footer p {
 footer .card {
     background-color: #000000;
     border-radius: 0;
+}
+
+/* --------------------------------------------- Student-details */
+
+.student-details {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.student-details h2{
+    font-weight: 800;
+    text-decoration: underline 5px #ec5353;
+}
+
+.student-details p {
+    margin-top: 20px;
+    text-align: justify;
+    font-weight: 400;
+}
+
+/* --------------------------------------------- Student-offer */
+
+.student-offer {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/pexels-leon-ardho-1552252.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+    
+.student-offer h1 {
+    font-weight: 800;
+    font-size: 3rem;
+    padding-top: 80px;
 }
