@@ -52,7 +52,7 @@ span {
 /* --------------------------------------------- Section */
 
 .main {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/pexels-scott-webb-28054.jpg) no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/pexels-scott-webb-28054\ 1.webp) no-repeat;
     background-size: cover;
     width: 100%;
     min-height: 90vh;
@@ -163,7 +163,7 @@ span {
 /* --------------------------------------------- Discover */
 
 .discover {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/pexels-pavel-danilyuk-6296020.jpg)no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/pexels-pavel-danilyuk-6296020\ 1.webp)no-repeat;
     background-size: cover;
     width: 100%;
     min-height: 85vh;
@@ -233,7 +233,7 @@ span {
 
 /* --------------------------------------------- Contact-us */
 .contact-us {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/pexels-victor-freitas-791763.jpg)no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/pexels-victor-freitas-791763\ 1.webp)no-repeat;
     background-size: cover;
     width: 100%;
     min-height: 80vh;
@@ -328,7 +328,7 @@ footer .card {
 /* --------------------------------------------- Student-offer */
 
 .student-offer {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/pexels-leon-ardho-1552252.jpg)no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/pexels-leon-ardho-1552252\ 1.webp)no-repeat;
     background-size: cover;
     width: 100%;
     min-height: 100vh;
@@ -364,7 +364,7 @@ footer .card {
 /* --------------------------------------------- Contact form */
 
 .contact-form-out {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/pexels-leon-ardho-1552252.jpg)no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/pexels-leon-ardho-1552252\ 1.webp)no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 120vh;
