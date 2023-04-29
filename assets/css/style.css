@@ -179,6 +179,10 @@ span {
     text-align: left;
 }
 
+#email {
+    width: 65%;
+}
+
 /* --------------------------------------------- Services */
 
 .services h1 {
@@ -378,4 +382,12 @@ footer .card {
     max-width: 120vh;
     position: relative;
     padding: 30px;
+}
+
+/* --------------------------------------------- Contact form - CONFIRMATION */
+
+.contact-form-out h2 {
+    padding-top: 20px;
+    margin-bottom: 50px;
+    text-decoration: underline;
 }
