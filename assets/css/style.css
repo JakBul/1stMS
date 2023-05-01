@@ -264,7 +264,7 @@ footer h5 {
 }
 
 footer h4 {
-    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
     font-size: 2rem;
     color: #fafafa;
 }
@@ -290,8 +290,11 @@ footer p {
     transition: all 0.4s;
 }
 
+
 .link {
     transition: all 0.5s;
+    text-decoration: none;
+    color: rgb(147, 195, 195);
 }
 
 .link:hover {
