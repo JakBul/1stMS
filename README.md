@@ -109,7 +109,7 @@ This is a fully responsive website that was designed mobile-first as this is the
 
 - **Navbar**
 
-    - the navbar is placed on top of a responsive image which acts as a header. It includes our logo on the left side. Aswell, it immediately shows on which page the user currently is thanks to underline effect and red color. Last but not least, the navbar doesn't discourage the user to get stuck thanks to matching black color with hero image below, so it's easy to follow to another section. When viewed on smaller screens, I opted for the menu to collapse into a toggler red icon with help of Bootstrap, as seen below on second screenshot.
+    - the navbar is placed on top of a responsive image which acts as a header. It includes our logo on the left side. Aswell, it immediately shows on which page the user currently is thanks to underline effect and red color. Last but not least, the navbar doesn't discourage the user to get stuck thanks to matching black color with hero image below, so it's easy to follow to another section. When viewed on smaller screens, I opted for the menu to collapse into a toggler red icon with help of Bootstrap, as seen below on second screenshot. Navbar is used on all webpages and contains the same information
 
 ![screenshot](assets/documentation/navbar.png)
 
@@ -117,19 +117,48 @@ This is a fully responsive website that was designed mobile-first as this is the
 
 - **Main Section**
 
-    - This section continues after navbar with black background and contains hero-image of woman coach watching at a catchy quote. I used H1 element as it's main quote of the whole website. I used our red color to highlight the keyword "your dream body" as it's goal of our user - to strive for getting better and achieving the dream body.
+    - this section continues after navbar with black background and contains hero-image of woman coach watching at a catchy quote. I used H1 element as it's main quote of the whole website. I used our red color to highlight the keyword "your dream body" as it's goal of our user - to strive for getting better and achieving the dream body
 
 ![screenshot](assets/documentation//hero-image.png)
 
 - **Details**
 
-    - This section introduce users more information about our gym. However, I try to keep this part clean and don't overload with unnecesary details. I decided to use two cards with separate headings and add nice hover effect, as visible in screenshot below. The background color changes to white for better vissible appearance.
+    - this section introduce users more information about our gym. However, I try to keep this part clean and don't overload with unnecesary details. I decided to use two cards with separate headings and add nice hover effect, as visible in screenshot below. The background color changes to white for better vissible appearance
 
 ![screenshot](assets/documentation/details.png)
 
 - **Personal Training**
 
-    - This section starts with H2 heading and is followed by paragraph containing information about possibility to work with our personal training staff. It's short, easy to read and catch the attention with image of our personal trainer with his client.
+    - this section starts with H2 heading and is followed by paragraph containing information about possibility to work with our personal training staff. It's short, easy to read and catch the attention with image of our personal trainer with his client
 
 ![screenshot](assets/documentation/PT.png)
 
+- **Discover**
+
+    - this part of website contains background image with lower opacity and heading H1 offering free first training when user signs up for our newsletter. That's important part of online business - to get e-mail of potential future customers and be able to navigate them throughout content with good e-mail marketing. Goal of section is motivate user to click on button 'Sign up' which will open the pop up window and user can sign up
+
+![screenshot](assets/documentation/discover.png)
+
+- **Facilities**
+
+    - section contains H1 heading of our highlight red color, and text with images using free FontAwesome library which shows what services can visitor expect to use in our gym. I added simple black&white colors with background to show contrast in flow of the whole website
+
+![screenshot](assets/documentation/facilities.png)
+
+- **Classes**
+
+    - this sections contains H1 heading of our highlight red color, and 3 cards that shows the top popular classes in GymBeam - with name of coaches, time of sessions and image. I decided to include this part in the project to show visitor of the website examples of training provided by our personal trainers team
+
+![screenshot](assets/documentation/classes.png)
+
+- **Contact follow-up**
+
+    - last but not least, I added follow-up contact part of the page before footer to remind user that he can contact us with any question regarding to our service. It's a simple section which contains background image and H1 heading with follow up question. User will be redirected to "Contact" webpage after clicking on button "Contact us"
+
+![screenshot](assets/documentation/contact-follow-up.png)
+
+- **Footer**
+
+    - last section is our footer - with logo and short information, links to social media websites where user can find us (with hover effect which we also used before), quick links to easily navigate throughout website and opening times (with nice transition and hover effect too). Background is slightly grey to distinguish the section from others. Footer is used on all webpages and contains the same information
+
+![screenshot](assets/documentation/footer.png)
