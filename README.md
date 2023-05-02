@@ -95,17 +95,19 @@ I used [coolors.co](https://coolors.co/000000-fafafa-ec5353-93c3c3-f5634b-fe9418
 
 I used Google fonts 'Raleway' to design logo of website. I felt leaving font 'sans-serif' was a simple choice and stood out on the page in uppercase style.
 
-- [Raleway](https://fonts.google.com/specimen/Raleway) was used for the logo.
+- [Raleway](https://fonts.google.com/specimen/Raleway) was used for the logo
 
-- [sans-serif](https://fonts.google.com/knowledge/glossary/sans_serif) was used for all other secondary text.
+- [sans-serif](https://fonts.google.com/knowledge/glossary/sans_serif) was used for all other secondary text
 
-- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the facility section or social media icons in the footer.
+- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the facility section or social media icons in the footer
 
 ## Features
 
 This is a fully responsive website that was designed mobile-first as this is the most likely way it will be viewed; the page is divided into four pages listed in the navbar. Where a colour or image background has been used, it has a slightly transparent opacity and the text is white, or red color used throughout the project which highlights the keywords. All of the headings the body text use font sans-serif in uppercase, this consistency has been used across the website to create a coherent design. Headings, buttons and hover effect use similar colors to build an easy-to-follow apperance.
 
 ### Existing Features
+
+### Home Page
 
 - **Navbar**
 
@@ -159,6 +161,135 @@ This is a fully responsive website that was designed mobile-first as this is the
 
 - **Footer**
 
-    - last section is our footer - with logo and short information, links to social media websites where user can find us (with hover effect which we also used before), quick links to easily navigate throughout website and opening times (with nice transition and hover effect too). Background is slightly grey to distinguish the section from others. Footer is used on all webpages and contains the same information
+    - last section is our footer - with logo and short information, links to social media websites where user can find us - with hover effect applied on logo of each FontAwesome image, quick links to easily navigate throughout website and opening times - with nice transition and hover effect too. Background is slightly grey to distinguish the section from others. Footer is used on all webpages and contains the same information
 
 ![screenshot](assets/documentation/footer.png)
+
+### Students Page
+
+- **Offer for students**
+
+    - this webpage starts with navbar used on the main page and finishes with the same footer as well. First section contains background image with H1 heading and second one is sale description of offer with image. It is about special offer for students as they require more flexible and cheaper option. The goal of this page is to get attention of them, because it is very important group of clients as they are more likely sharing photos during training, talking with friends about their experience and spread our brand with word-of-mouth marketing
+
+![screenshot](assets/documentation/students1.png)
+![screenshot](assets/documentation/students2.png)
+
+
+### Gallery Page
+
+- **Gallery from our GymBeam**
+
+    - this webpage starts with navbar used on the main page and finishes with the same footer as well. All section is full of images to show visitors what is the experience of our client base to train with us
+
+![screenshot](assets/documentation/gallery.png)
+
+### Contact Page
+
+- **Contact Form**
+
+    - this webpage starts with navbar used on the main page and finishes with the same footer as well. This simple section contains form which visitors can use in case of any question or queries. When visitors try to get in touch, it usually means they are interested in our local gym and we can actually work in building relationships with them 
+
+![screenshot](assets/documentation/contact.png)
+
+- **Confirmation**
+
+    - I tried to make the contact form more interactive. Sadly, with lack of knowledge with JavaScript and backend processes I didn't have many options of doing it. However, my mentor Tim came with an idea to use the same webpage as is the contact form, but redirect users to home page after 10 seconds. In the end, it appears more professional and fluent
+
+![screenshot](assets/documentation/confirmation.png)
+
+### Future Features
+
+- **Interaction with JavaScript**
+    - After learning how to enrich code with JavaScript, I will update this website and make it more dynamic. For example, hero-image can actually contains 3 or 4 of images which swipe left from one to another every 5 seconds
+- **Backend programming**
+    - I would like to implement work with Backend language such as Python to be able to work with e-mail databases, newsletters and make log-in section where people can book class in the gym fully online. Last but not least, I could try to build own brand of clothes and gym small equipment and sell it thanks to our webpage
+
+## Tools & Technologies Used
+
+- [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content
+- [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout
+- [CSS Grid](https://www.w3schools.com/css/css_grid.asp) used for an enhanced responsive layout
+- [JavaScript](https://www.javascript.com) used for user interaction on the site
+- [Git](https://git-scm.com) used for version control (`git add`, `git commit`, `git push`)
+- [GitHub](https://github.com) used for secure online code storage
+- [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site
+- [Gitpod](https://gitpod.io) used as a cloud-based IDE for development
+- [Pexels](https://www.pexels.com/) used to find and download free images for project
+- [Bootstrap](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components
+- [Google Fonts](https://fonts.google.com/) used to obtain the fonts linked in the header and used in project
+- [Font Awesome](https://fontawesome.com/) used to obtain the media icons
+- [Google Developer Tools](https://developers.google.com/web/tools/chrome-devtools) used as a primary method of fixing spacing issues, finding bugs, and testing responsiveness across the project
+- [Grammarly](https://www.grammarly.com/) used to fix the thousands of grammar errors across the project
+- [Coloors](https://coolors.co/) used to create a colour palette for the design
+- [Color Contrast Accessibility Validator](https://color.a11y.com/) allowed me to test the colour contrast of my webpage
+- [W3C Markup Validation Service](https://validator.w3.org/) used to validate all HTML code written and used on this webpage
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) used to validate all CSS code written and used on this webpage
+- [AmIResponsive](http://ami.responsivedesign.is/) used to generate repsonsive image used in README file
+
+## Testing
+
+## Code Validation
+
+### HTML
+I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
+
+### CSS
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
+
+## Deployment
+
+The site was deployed to GitHub Pages. The steps to deploy are as follows:
+- In the [GitHub repository](https://github.com/JakBul/GymBeam), navigate to the Settings tab 
+- From the source section drop-down menu, select the **Main** Branch, then click "Save".
+- The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://jakbul.github.io/GymBeam)
+
+### Local Deployment
+
+This project can be cloned or forked in order to make a local copy on your own system.
+
+#### Cloning
+
+You can clone the repository by following these steps:
+
+1. Go to the [GitHub repository](https://github.com/JakBul/GymBeam) 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash or Terminal
+5. Change the current working directory to the one where you want the cloned directory
+6. In your IDE Terminal, type the following command to clone my repository:
+	- `git clone https://github.com/JakBul/GymBeam.git`
+7. Press Enter to create your local clone.
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/JakBul/GymBeam)
+
+Please note that in order to directly open the project in Gitpod, you need to have the browser extension installed.
+A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/configure/user-settings/browser-extension).
+
+#### Forking
+
+By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository.
+You can fork this repository by using the following steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/JakBul/GymBeam)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
+
+
+## Credits
+
+| Source | Location | Notes |
+| --- | --- | --- |
+| [Markdown Builder](https://traveltimn.github.io/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
+| [Pexels](https://www.pexels.com) | entire site | images on all pages |
+
+
+## Acknowledgements
+
+- First and foremost, I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for his support throughout the development of this project
+- Secondly,  I would like to thank my Code Institute tutor, [Nigel Edwards](https://github.com/nigel-edwards) for his assistance and guidance since start of studying
+- In addition, I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support
+- Last but not least, I would like to thank my partner Angi, for believing in me, and allowing me to make this transition into software development
