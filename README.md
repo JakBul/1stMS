@@ -226,15 +226,35 @@ This is a fully responsive website that was designed mobile-first as this is the
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) used to validate all CSS code written and used on this webpage
 - [AmIResponsive](http://ami.responsivedesign.is/) used to generate repsonsive image used in README file
 
-## Testing
+# Testing
 
 ## Code Validation
 
 ### HTML
 I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
+[Generated link here](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjakbul.github.io%2FGymBeam%2F)
+
+![screenshot](assets/documentation/html_validation.png)
 
 ### CSS
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
+
+![screenshot](assets/documentation/css_validation.png)
+
+## Browser Compatibility
+
+I have tested my deployed project on multiple browsers to check for compatibility issues.
+
+| Browser | Screenshot | Notes |
+| --- | --- | --- |
+| Chrome | ![screenshot](assets/documentation/chrome_compatibility.png) | Works as expected |
+| Edge | ![screenshot](assets/documentation/edge_compatibility.png) | Works as expected |
+| Safari | ![screenshot](assets/documentation/safari_1.png) | Works as expected |
+
+
+## Responsiveness
+
+I have tested my deployed project on multiple devices to check for responsiveness issues.
 
 ## Deployment
 
