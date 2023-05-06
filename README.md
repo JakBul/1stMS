@@ -4,7 +4,7 @@
 
 ![](assets/documentation/mockup.png)
 
-Created to represent local fitness centre in London and provide more information for users. This website was made for educational purposes only.
+Created to represent local fitness centre in London and provide more information for users. This project was made for educational purposes only.
 
 This website is made up of the following sections:
 
@@ -17,8 +17,8 @@ The business goals for this website are:
 
 1. To promote our brand in the online world
 2. To inspire users to visit the gym and furthermore get new costumers
-3. To be reachable for customers with contact form
-4. To build a database of users to send future information & content to, build an audience
+3. To be reachable for visitors with contact form
+4. To build a database of users to send future information & content to
 
 The user goals of this website are:
 1. As a first-time visitor, I want to easily find useful information about the gym, classes and facilities
@@ -42,7 +42,7 @@ GymBeam target users are:
 What these users would be looking for:
 * Clear and easy-to-find information
 * Beautiful photos that provide inspiration and make the destinations look desirable
-* Facilities, special offers and classses to try use to
+* Facilities, special offers and classes to try use to
 
 This website will offer all of these things whilst also allowing for intuitive navigation and comfortability of use. An effort was taken to not provide an overwhelming amount of information at first glance as this is often the reason people are put off with local gyms.
 
@@ -53,7 +53,7 @@ Due to the age group of the users, it is assumed that most users will be viewing
 In order to achieve the desired user & business goals, the following features will be included in this release:
 
 - Logo, header and menu bar, to navigate to various sections of the page
-- Hero image section with inspirational quote
+- Hero image section with an inspirational quote
 - Discover section below including short information about the gym
 - Personal training section with desirable text
 - Section with offer and pop-up window to sign up for newsletter
@@ -202,7 +202,7 @@ This is a fully responsive website that was designed mobile-first as this is the
 - **Interaction with JavaScript**
     - After learning how to enrich code with JavaScript, I will update this website and make it more dynamic. For example, hero-image can actually contains 3 or 4 of images which swipe left from one to another every 5 seconds
 - **Backend programming**
-    - I would like to implement work with Backend language such as Python to be able to work with e-mail databases, newsletters and make log-in section where people can book class in the gym fully online. Last but not least, I could try to build own brand of clothes and gym small equipment and sell it thanks to our webpage
+    - I would like to implement work with Backend language such as Python to be able to work with e-mail databases, newsletters and make log-in section where people can book class in the gym fully online. Last but not least, I could try to build own brand of clothes and gym small equipment and sell it on the webpage
 
 ## Tools & Technologies Used
 
@@ -249,12 +249,48 @@ I have tested my deployed project on multiple browsers to check for compatibilit
 | --- | --- | --- |
 | Chrome | ![screenshot](assets/documentation/chrome_compatibility.png) | Works as expected |
 | Edge | ![screenshot](assets/documentation/edge_compatibility.png) | Works as expected |
-| Safari | ![screenshot](assets/documentation/safari_1.png) | Works as expected |
-
+| Safari | ![screenshot](assets/documentation/safari_compatibility.png) | Works as expected |
 
 ## Responsiveness
 
 I have tested my deployed project on multiple devices to check for responsiveness issues.
+
+| Device | Screenshot | Notes |
+| --- | --- | --- |
+| Mobile iPhone 13 | ![screenshot](assets/documentation/safari_3.png) | Works as expected
+| Mobile iPhone 10 | ![screenshot](assets/documentation/safari_1.png) | Not getting full width of webpage on phone when turned on portrait orientation |
+| Tablet (DevTools) | ![screenshot](assets/documentation/tablet_responsiveness.png) | Works as expected |
+| Desktop | ![screenshot](assets/documentation/chrome_compatibility.png) | Works as expected |
+
+## Lighthouse Audit
+
+I have tested my deployed project using the Lighthouse Audit tool to check for any major issues.
+
+| Page | Screenshot | Notes |
+| --- | --- | --- |
+| Home | ![screenshot](assets/documentation/lighthouse_home.png) | One irrelevant warning |
+| Students | ![screenshot](assets/documentation/lighthouse_students.png) | One irrelevant warning |
+| Gallery | ![screenshot](assets/documentation/lighthouse_gallery.png) | Slower response time due to larger images |
+| Contact | ![screenshot](assets/documentation/lighthouse_contact.png) | One irrelevant warning |
+
+## User Story Testing
+ 
+| User Story | Screenshot | Comments |
+| --- | --- | --- |
+| As a first-time visitor, I want to easily find useful information about the gym, classes and facilities | ![screenshot](assets/documentation/edge_compatibility.png) | Entire Home page contains required information |
+| As a recurring or first-time visitor, I want to be able to sign up to directly receive content via newsletter | ![screenshot](assets/documentation/discover.png) | Visitor can get first training for free to try out the gym |
+| As a first-time visitor, I want to be able to contact the gym with any further question | ![screenshot](assets/documentation/contact.png) | Contact form is on the separate webpage and easy to access through navigation bar |
+| As a first-time visitor, I want to easily find information about special offer for students | ![screenshot](assets/documentation/students2.png) | This offer is on the separate webpage and easy to access through navigation bar |
+| As a recurring or first-time visitor, I want to be able to see how the gym looks like thanks to the gallery section | ![screenshot](assets/documentation/gallery.png) | Gallery is on the separate webpage aswell and easy to access through navigation bar |
+
+
+## Known bugs and fixes
+
+
+
+## Unfixed Bugs
+
+There are no remaining bugs that I am aware of.
 
 ## Deployment
 
@@ -303,7 +339,7 @@ You can fork this repository by using the following steps:
 
 | Source | Location | Notes |
 | --- | --- | --- |
-| [Markdown Builder](https://traveltimn.github.io/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
+| [Markdown Builder](https://traveltimn.github.io/markdown-builder) | README | tool to help generate the Markdown files |
 | [Pexels](https://www.pexels.com) | entire site | images on all pages |
 
 
