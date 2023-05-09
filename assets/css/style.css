@@ -356,11 +356,31 @@ footer .card {
     color: #ec5353;
 }
 
-.gallery {
+@media screen and (min-width: 1200px) {
+    .gallery {
+    clear: both;
+    line-height: 0; 
+    column-count: 3;
+    column-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .gallery {
     clear: both;
     line-height: 0; 
     column-count: 2;
     column-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .gallery {
+    clear: both;
+    line-height: 0; 
+    column-count: 1;
+    column-gap: 10px;
+    }
 }
 
 .gallery img{
