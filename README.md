@@ -208,8 +208,6 @@ This is a fully responsive website that was designed mobile-first as this is the
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content
 - [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout
-- [CSS Grid](https://www.w3schools.com/css/css_grid.asp) used for an enhanced responsive layout
-- [JavaScript](https://www.javascript.com) used for user interaction on the site
 - [Git](https://git-scm.com) used for version control (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used for secure online code storage
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site
@@ -221,7 +219,6 @@ This is a fully responsive website that was designed mobile-first as this is the
 - [Google Developer Tools](https://developers.google.com/web/tools/chrome-devtools) used as a primary method of fixing spacing issues, finding bugs, and testing responsiveness across the project
 - [Grammarly](https://www.grammarly.com/) used to fix the thousands of grammar errors across the project
 - [Coloors](https://coolors.co/) used to create a colour palette for the design
-- [Color Contrast Accessibility Validator](https://color.a11y.com/) allowed me to test the colour contrast of my webpage
 - [W3C Markup Validation Service](https://validator.w3.org/) used to validate all HTML code written and used on this webpage
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) used to validate all CSS code written and used on this webpage
 - [AmIResponsive](http://ami.responsivedesign.is/) used to generate repsonsive image used in README file
@@ -286,7 +283,22 @@ I have tested my deployed project using the Lighthouse Audit tool to check for a
 
 ## Known bugs and fixes
 
+Throughout the entire process, I used Google Dev Tools for testing the website and it's layout. This allowed me to check the responsiveness of the site and quickly debug any issues that I came across.
 
+Gallery bug:
+![screenshot](assets/documentation/bug_in_gallery.png)
+![screenshot](assets/documentation/bug_in_gallery_2.png)
+
+
+Also, I tested accessibility in WAVE. Initially, I had some errors due to lower contrast of headings and background color in footer:
+
+![screenshot](assets/documentation/contrast_bug_0.png)
+
+Using the report, I made the necessary changes and now Dev Tools shows that contrast is sufficient 3.66 points:
+
+![screenshot](assets/documentation/contrast_bug.png)
+
+In addition to testing that I conducted, I got my tutor to test the website and provide feedback on anything he felt didn't work or look right, this enabled me to debug any issues that I might not have otherwise found.
 
 ## Unfixed Bugs
 
