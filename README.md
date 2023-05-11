@@ -216,6 +216,7 @@ This is a fully responsive website that was designed mobile-first as this is the
 - [Bootstrap](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components
 - [Google Fonts](https://fonts.google.com/) used to obtain the fonts linked in the header and used in project
 - [Font Awesome](https://fontawesome.com/) used to obtain the media icons
+- [Start Bootstrap](https://startbootstrap.com/) used to obtain HTML Template
 - [Google Developer Tools](https://developers.google.com/web/tools/chrome-devtools) used as a primary method of fixing spacing issues, finding bugs, and testing responsiveness across the project
 - [Grammarly](https://www.grammarly.com/) used to fix the thousands of grammar errors across the project
 - [Coloors](https://coolors.co/) used to create a colour palette for the design
@@ -223,20 +224,45 @@ This is a fully responsive website that was designed mobile-first as this is the
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) used to validate all CSS code written and used on this webpage
 - [AmIResponsive](http://ami.responsivedesign.is/) used to generate repsonsive image used in README file
 
+## Media
+
+At the start of the project, I had not been aware of saving all of the link for media I use in project. However, my mentor Tim advised me to mention them and these are all I could then reversely find at the webpage Pexels:
+
+| Source | Location | Type | Notes |
+| --- | --- | --- | --- |
+| [Pexels](https://www.pexels.com/photo/group-of-women-doing-work-out-863926/) | gallery page | image | reduced in size by 50% and changed format to webp |
+| [Pexels](https://www.pexels.com/photo/three-women-kneeling-on-floor-866023/) | gallery page | image | reduced in size by 50% and changed format to webp |
+| [Pexels](https://www.pexels.com/photo/photo-of-a-young-woman-in-a-gym-16358993/) | gallery page | image | reduced in size by 50% and changed format to webp |
+| [Pexels](https://www.pexels.com/photo/happy-multiethnic-sportspeople-clapping-hands-in-gym-6456140/) | gallery page | image | reduced in size by 50% and changed format to webp |
+| [Pexels](https://www.pexels.com/photo/black-coach-reaching-hand-to-woman-6456303/) | gallery page | image | reduced in size by 50% and changed format to webp |
+| [Pexels](https://www.pexels.com/photo/woman-lifting-barbell-1552249/) | students page | image | reduced in size by 50% and changed format to webp |
+| [Pexels](https://www.pexels.com/photo/barbell-on-the-floor-1552252/) | students, contact and confirmation page | image | used as the background image, reduced in size by 50% and changed format to webp |
+| [Pexels](https://www.pexels.com/photo/woman-wearing-black-sports-bra-28054/) | hero image on home page | image | reduced in size by 50% and changed format to webp |
+| [Pexels](https://www.pexels.com/photo/man-carrying-barbel-791763/) | home page | image | reduced in size by 50% and changed format to webp |
+
+
 # Testing
 
 ## Code Validation
 
 ### HTML
 I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
-[Generated link here](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjakbul.github.io%2FGymBeam%2F)
 
-![screenshot](assets/documentation/html_validation.png)
+| Page | W3C URL | Screenshot | Notes |
+| --- | --- | --- | --- |
+| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FJakBul.github.io%2FGymBeam%2Findex.html) | ![screenshot](assets/documentation/html_validation.png) | Pass: No Errors |
+| Students | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FJakBul.github.io%2FGymBeam%2Fstudents.html) | ![screenshot](assets/documentation/html_validation_students.png) | Pass: No Errors |
+| Gallery | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FJakBul.github.io%2FGymBeam%2Fgallery.html) | ![screenshot](assets/documentation/html_validation_gallery.png) | Pass: No Errors |
+| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FJakBul.github.io%2FGymBeam%2Fcontact.html) | ![screenshot](assets/documentation/html_validation_contact.png) | Pass: No Errors |
+| Confirmation | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FJakBul.github.io%2FGymBeam%2Fconfirmation.html) | ![screenshot](assets/documentation/html_validation_confirmation.png) | Pass: No Errors |
+
 
 ### CSS
-I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate my CSS file.
 
-![screenshot](assets/documentation/css_validation.png)
+| File | Jigsaw URL | Screenshot | Notes |
+| --- | --- | --- | --- |
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FJakBul.github.io%2FGymBeam) | ![screenshot](assets/documentation/css_validation.png) | Pass: No Errors when validated by input - see screenshot. Note! Upon clicking on the link there are shown errors because validator tests third-party tools such as Bootstrap as well |
 
 ## Browser Compatibility
 
@@ -263,12 +289,16 @@ I have tested my deployed project on multiple devices to check for responsivenes
 
 I have tested my deployed project using the Lighthouse Audit tool to check for any major issues.
 
-| Page | Screenshot | Notes |
-| --- | --- | --- |
-| Home | ![screenshot](assets/documentation/lighthouse_home.png) | One irrelevant warning |
-| Students | ![screenshot](assets/documentation/lighthouse_students.png) | One irrelevant warning |
-| Gallery | ![screenshot](assets/documentation/lighthouse_gallery.png) | Slower response time due to larger images |
-| Contact | ![screenshot](assets/documentation/lighthouse_contact.png) | One irrelevant warning |
+| Page | Size | Screenshot | Notes |
+| --- | --- | --- | --- |
+| Home | Desktop | ![screenshot](assets/documentation/lighthouse_home.png) | One irrelevant warning |
+| Students | Desktop | ![screenshot](assets/documentation/lighthouse_students.png) | One irrelevant warning |
+| Gallery | Desktop | ![screenshot](assets/documentation/lighthouse_gallery.png) | Slower response time due to larger images |
+| Contact | Desktop | ![screenshot](assets/documentation/lighthouse_contact.png) | One irrelevant warning |
+| Home | Mobile | ![screenshot](assets/documentation/lighthouse_home_mobile.png) | One irrelevant warning |
+| Students | Mobile | ![screenshot](assets/documentation/lighthouse_students_mobile.png) | One irrelevant warning |
+| Gallery | Mobile | ![screenshot](assets/documentation/lighthouse_gallery_mobile.png) | Slower response time due to larger images |
+| Contact | Mobile | ![screenshot](assets/documentation/lighthouse_contact_mobile.png) | One irrelevant warning |
 
 ## User Story Testing
  
@@ -285,8 +315,10 @@ I have tested my deployed project using the Lighthouse Audit tool to check for a
 
 Throughout the entire process, I used Google Dev Tools for testing the website and it's layout. This allowed me to check the responsiveness of the site and quickly debug any issues that I came across.
 
-Gallery bug:
+Here is an example with bug in Gallery section. My mentor Tim found pop-up modal error in DevTools:
 ![screenshot](assets/documentation/bug_in_gallery.png)
+
+To fix this, I had to find the piece of code in HTML and delete it in order to get the website working properly.
 ![screenshot](assets/documentation/bug_in_gallery_2.png)
 
 
@@ -294,7 +326,7 @@ Also, I tested accessibility in WAVE. Initially, I had some errors due to lower 
 
 ![screenshot](assets/documentation/contrast_bug_0.png)
 
-Using the report, I made the necessary changes and now Dev Tools shows that contrast is sufficient 3.66 points:
+Using the report, I made the necessary changes and now Dev Tools shows that contrast is on average 3.66 points:
 
 ![screenshot](assets/documentation/contrast_bug.png)
 
